@@ -33,14 +33,95 @@
         });
     </script>
 
+    <style>
+
+        * {
+        margin: 0;
+        padding: 0;
+        }
+
+
+        .logo{
+            width: 25%;
+            position: relative;
+            margin-left: 35%;
+        }
+
+        body {
+            scroll-padding-top: 200px;
+        }
+
+        html {
+            scroll-padding-top: 200px; 
+        }
+
+        .parallax-one {
+            padding-top: 200px; 
+            padding-left: 50px; 
+            padding-right: 50px; 
+            padding-bottom: 200px; 
+            overflow: hidden; 
+            position: relative; 
+            width: 100%;
+            background-image: url("img/crowd.jpg");
+            background-attachment: fixed; 
+            background-size: cover; 
+            -moz-background-size: cover; 
+            -webkit-background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center bottom;
+            
+        }
+
+        .text{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /*color: black;*/
+            /*margin: 0 3%;*/
+            background-color: #ffffff;
+            border: 1px solid white;
+            /*opacity: 0.6;*/
+            background: rgba(255, 255, 255, 0.6);
+            font-size: 50px;
+        }
+
+
+
+    </style>
+
 </head>
 <body>
-
+    
     <div id="navbar"></div>
 
+    <br><br><br><br>
+
     <section id="home">
-        <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo">
+
+        <div class="parallax-one">
+
+            <div class="text">
+                    <div class="container">
+                        <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo">
+                        <p>Stay Safe Stay Healthy</p>
+                        <p>Covid-19</p>
+                    </div>
+            </div>
+
+        </div>
+
     </section>
+
+    <section id="home">
+        <div class="container">
+            <!--img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo"-->
+        </div>
+    </section>
+
+    <br><br>
 
     <section id="team">
         <div id="team"></div>
@@ -49,5 +130,7 @@
     <section id="social-media">
         
     </section>
+
+    <br><br><br>
 </body>
 </html>
