@@ -28,12 +28,16 @@
     <script> 
         $(function(){
             //$("#navbar").load("navbar-index.html"); 
-            $("#team").load("test.html");
             $("#navbar").load("navbar.html");
+            $("#team").load("test.html");
+            $("#timeline").load("timeline.html");
+            
         });
     </script>
 
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
         * {
         margin: 0;
@@ -45,6 +49,10 @@
             width: 25%;
             position: relative;
             margin-left: 35%;
+        }
+
+        .title{
+            font-family: 'Bebas Neue', cursive;
         }
 
         body {
@@ -97,7 +105,7 @@
     
     <div id="navbar"></div>
 
-    <br><br><br><br>
+    <!--br><br><br><br-->
 
     <section id="home">
 
@@ -106,8 +114,9 @@
             <div class="text">
                     <div class="container">
                         <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo">
-                        <p>Stay Safe Stay Healthy</p>
-                        <p>Covid-19</p>
+                        <span class="title">
+                            <p>Stay Safe Stay Healthy</p>
+                        </span>
                     </div>
             </div>
 
@@ -115,11 +124,11 @@
 
     </section>
 
-    <section id="home">
+    <!--section id="home">
         <div class="container">
-            <!--img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo"-->
+            <!--img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo"->
         </div>
-    </section>
+    </section-->
 
     <br><br>
 
@@ -127,8 +136,10 @@
         <div id="team"></div>
     </section>
 
+    <br><br><br><br><br>
+
     <section id="social-media">
-        
+        <div id="timeline"></div>
     </section>
 
     <br><br><br>

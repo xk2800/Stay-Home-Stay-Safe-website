@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /*.container {
     height: 100vh;
     width: 100vw;
@@ -266,11 +268,11 @@
 
   /*Loh Yu Jin*/
   .card14 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610481186/IMG_20181212_202610_o60hdo.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card14:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610481186/IMG_20181212_202610_o60hdo.jpg") center center no-repeat;
     background-size: 600px;
   }
   .card14:hover h2 {
@@ -287,7 +289,7 @@
   }
   .card15:hover {
     background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610388957/IMG20201127141138_qnjzjz.jpg") center center no-repeat;
-    background-size: 600px;
+    background-size: 400px;
   }
   .card15:hover h2 {
     opacity: 1;
@@ -297,7 +299,7 @@
   }
 
   h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Bebas Neue', cursive;
     color: black;
     margin: 20px 20px 0px 35px;
     opacity: 0;
