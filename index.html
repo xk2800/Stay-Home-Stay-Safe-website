@@ -22,6 +22,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -112,12 +114,18 @@
         <div class="parallax-one">
 
             <div class="text">
-                    <div class="container">
-                        <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo">
-                        <span class="title">
+                <div class="container">
+                    <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo">
+                    <span class="title">
+                        <div data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+
                             <p>Stay Safe Stay Healthy</p>
-                        </span>
-                    </div>
+                        </div>
+                        
+                    </span>
+                </div>
             </div>
 
         </div>
@@ -143,5 +151,13 @@
     </section>
 
     <br><br><br>
+
+
+
+    <!--Scroll Effect CDN https://michalsnik.github.io/aos/-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
