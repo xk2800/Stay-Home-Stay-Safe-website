@@ -12,36 +12,38 @@
     align-items: center;
     margin: 0 auto;
   }*/
-  .border {
-    height: 369px;
-    width: 290px;
-    background: transparent;
-    border-radius: 10px;
-    transition: border 1s;
-    position: relative;
-  }
-  .border:hover {
-    border: 1px solid #fff;
-  }
-  .card {
-    height: 379px;
-    width: 300px;
-    background: #808080;
-    border-radius: 10px;
-    transition: background 0.8s;
-    overflow: hidden;
-    background: #000;
-    box-shadow: 0 70px 63px -60px #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-	  min-height: 22rem;
-    min-width: 16rem;
-    padding: 1rem !important;
-    margin: 0.5rem;
-  }
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  min-height: 22rem;
+  min-width: 16rem;
+  padding: 1rem !important;
+  margin: 0.5rem;
+}
 
 /*
   .card0 {
@@ -59,273 +61,319 @@
     opacity: 1;
   }
 */
-  .card1 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610214164/IMG_1041_-_Copy_dzwfex.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card1:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610214164/IMG_1041_-_Copy_dzwfex.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card1:hover h2 {
-    opacity: 1;
-  }
-  .card1:hover .fa {
-    opacity: 1;
-  }
+.card1 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610214164/IMG_1041_-_Copy_dzwfex.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card1:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610214164/IMG_1041_-_Copy_dzwfex.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card1:hover .fa {
+  opacity: 1;
+}
 
 
-  .card2 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556369/mmexport1584114999928-min_iqhub3.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card2:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556369/mmexport1584114999928-min_iqhub3.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card2:hover h2 {
-    opacity: 1;
-  }
-  .card2:hover .fa {
-    opacity: 1;
-  }
+.card2 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556369/mmexport1584114999928-min_iqhub3.jpg") center center no-repeat;
+  background-size: 300px;
+}
 
-  /*Liew Jie Sheng*/
-  .card3 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card3:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card3:hover h2 {
-    opacity: 1;
-  }
-  .card3:hover .fa {
-    opacity: 1;
-  }
+.card2:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556369/mmexport1584114999928-min_iqhub3.jpg") center center no-repeat;
+  background-size: 600px;
+}
 
-  /*Ng Jun Wei*/
-  .card4 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card4:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card4:hover h2 {
-    opacity: 1;
-  }
-  .card4:hover .fa {
-    opacity: 1;
-  }
-  
-  /*Tan Shin Hui*/
-  .card5 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556363/Blablabla-min_obqhgl.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card5:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556363/Blablabla-min_obqhgl.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card5:hover h2 {
-    opacity: 1;
-  }
-  .card5:hover .fa {
-    opacity: 1;
-  }
-  
-  /*Chen Hoe Mun*/
-  .card6 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556366/Chen_-min_uhc2sc.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card6:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556366/Chen_-min_uhc2sc.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card6:hover h2 {
-    opacity: 1;
-  }
-  .card6:hover .fa {
-    opacity: 1;
-  }
-  
-  /*Deveshkumar A/L Narasimma*/
-  .card7 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card7:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card7:hover h2 {
-    opacity: 1;
-  }
-  .card7:hover .fa {
-    opacity: 1;
-  }
+.card2:hover h2 {
+  opacity: 1;
+}
 
-  /*Yan Jac Kie*/
-  .card8 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card8:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card8:hover h2 {
-    opacity: 1;
-  }
-  .card8:hover .fa {
-    opacity: 1;
-  }
+.card2:hover .fa {
+  opacity: 1;
+}
 
-  /*Elton Wong Chun Meng */
-  .card9 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/Zhuang_b_failed-min_t0ulcp.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card9:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/Zhuang_b_failed-min_t0ulcp.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card9:hover h2 {
-    opacity: 1;
-  }
-  .card9:hover .fa {
-    opacity: 1;
-  }
+/*Liew Jie Sheng*/
+.card3 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
 
-  /*Ong Wen Xuan*/
-  .card10 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card10:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card10:hover h2 {
-    opacity: 1;
-  }
-  .card10:hover .fa {
-    opacity: 1;
-  }
+.card3:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
 
-  /*Ting Siong Hock*/
-  .card11 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card11:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card11:hover h2 {
-    opacity: 1;
-  }
-  .card11:hover .fa {
-    opacity: 1;
-  }
+.card3:hover h2 {
+  opacity: 1;
+}
 
-  /*Lim Ping Liang*/
-  .card12 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556362/Lim-min_ryodmf.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card12:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556362/Lim-min_ryodmf.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card12:hover h2 {
-    opacity: 1;
-  }
-  .card12:hover .fa {
-    opacity: 1;
-  }
+.card3:hover .fa {
+  opacity: 1;
+}
 
-  /*Tee Eng Leong*/
-  .card13 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card13:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card13:hover h2 {
-    opacity: 1;
-  }
-  .card13:hover .fa {
-    opacity: 1;
-  }
+/*Ng Jun Wei*/
+.card4 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
 
-  /*Loh Yu Jin*/
-  .card14 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/IMG_20181212_202610-min_dunihn.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card14:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/IMG_20181212_202610-min_dunihn.jpg") center center no-repeat;
-    background-size: 600px;
-  }
-  .card14:hover h2 {
-    opacity: 1;
-  }
-  .card14:hover .fa {
-    opacity: 1;
-  }
+.card4:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
 
-  /*Liew Wei Cheng*/
-  .card15 {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556364/IMG20201127141138-min_tx8vzt.jpg") center center no-repeat;
-    background-size: 300px;
-  }
-  .card15:hover {
-    background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556364/IMG20201127141138-min_tx8vzt.jpg") center center no-repeat;
-    background-size: 400px;
-  }
-  .card15:hover h2 {
-    opacity: 1;
-  }
-  .card15:hover .fa {
-    opacity: 1;
-  }
+.card4:hover h2 {
+  opacity: 1;
+}
 
-  h2 {
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-    margin: 20px 20px 0px 35px;
-    opacity: 0;
-    transition: opacity 1s;
-  }
+.card4:hover .fa {
+  opacity: 1;
+}
+
+/*Tan Shin Hui*/
+.card5 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556363/Blablabla-min_obqhgl.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card5:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556363/Blablabla-min_obqhgl.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card5:hover h2 {
+  opacity: 1;
+}
+
+.card5:hover .fa {
+  opacity: 1;
+}
+
+/*Chen Hoe Mun*/
+.card6 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556366/Chen_-min_uhc2sc.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card6:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556366/Chen_-min_uhc2sc.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card6:hover h2 {
+  opacity: 1;
+}
+
+.card6:hover .fa {
+  opacity: 1;
+}
+
+/*Deveshkumar A/L Narasimma*/
+.card7 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card7:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card7:hover h2 {
+  opacity: 1;
+}
+
+.card7:hover .fa {
+  opacity: 1;
+}
+
+/*Yan Jac Kie*/
+.card8 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card8:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card8:hover h2 {
+  opacity: 1;
+}
+
+.card8:hover .fa {
+  opacity: 1;
+}
+
+/*Elton Wong Chun Meng */
+.card9 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/Zhuang_b_failed-min_t0ulcp.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card9:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/Zhuang_b_failed-min_t0ulcp.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card9:hover h2 {
+  opacity: 1;
+}
+
+.card9:hover .fa {
+  opacity: 1;
+}
+
+/*Ong Wen Xuan*/
+.card10 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card10:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card10:hover h2 {
+  opacity: 1;
+}
+
+.card10:hover .fa {
+  opacity: 1;
+}
+
+/*Ting Siong Hock*/
+.card11 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card11:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card11:hover h2 {
+  opacity: 1;
+}
+
+.card11:hover .fa {
+  opacity: 1;
+}
+
+/*Lim Ping Liang*/
+.card12 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556362/Lim-min_ryodmf.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card12:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556362/Lim-min_ryodmf.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card12:hover h2 {
+  opacity: 1;
+}
+
+.card12:hover .fa {
+  opacity: 1;
+}
+
+/*Tee Eng Leong*/
+.card13 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card13:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610390541/360_F_346936114_RaxE6OQogebgAWTalE1myseY1Hbb5qPM_ayenpa.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card13:hover h2 {
+  opacity: 1;
+}
+
+.card13:hover .fa {
+  opacity: 1;
+}
+
+/*Loh Yu Jin*/
+.card14 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/IMG_20181212_202610-min_dunihn.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card14:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556361/IMG_20181212_202610-min_dunihn.jpg") center center no-repeat;
+  background-size: 600px;
+}
+
+.card14:hover h2 {
+  opacity: 1;
+}
+
+.card14:hover .fa {
+  opacity: 1;
+}
+
+/*Liew Wei Cheng*/
+.card15 {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556364/IMG20201127141138-min_tx8vzt.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card15:hover {
+  background: url("https://res.cloudinary.com/djiqzvyik/image/upload/v1610556364/IMG20201127141138-min_tx8vzt.jpg") center center no-repeat;
+  background-size: 400px;
+}
+
+.card15:hover h2 {
+  opacity: 1;
+}
+
+.card15:hover .fa {
+  opacity: 1;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  margin: 20px 20px 0px 35px;
+  opacity: 0;
+  transition: opacity 1s;
+}
 
 
-  .fa {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  .icons {
-    position: absolute;
-    fill: #fff;
-    color: black;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: black;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
 .outer-div {
-    position: relative;
+  position: relative;
 }
 
 .boxes-row {

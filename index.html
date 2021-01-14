@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stay Home Stay Safe</title>
-    
+
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -14,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -22,43 +23,42 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script> 
-        $(function(){
+    <script>
+        $(function () {
             //$("#navbar").load("navbar-index.html"); 
             $("#navbar").load("navbar.html");
             $("#team").load("test.html");
             $("#timeline").load("timeline.html");
-            
+
         });
     </script>
 
     <style>
-
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
         * {
-        margin: 0;
-        padding: 0;
+            margin: 0;
+            padding: 0;
         }
 
 
-        .logo{
+        .logo {
             width: 25%;
             position: relative;
             margin-left: 37%;
         }
 
-        .title{
+        .title {
             font-family: 'Bebas Neue', cursive;
             text-align: center;
         }
 
-        .subtitle{
+        .subtitle {
             font-family: 'Bebas Neue', cursive;
         }
 
@@ -67,28 +67,28 @@
         }
 
         html {
-            scroll-padding-top: 200px; 
+            scroll-padding-top: 200px;
         }
 
         .parallax-one {
-            padding-top: 200px; 
-            padding-left: 50px; 
-            padding-right: 50px; 
-            padding-bottom: 200px; 
-            overflow: hidden; 
-            position: relative; 
+            padding-top: 200px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 200px;
+            overflow: hidden;
+            position: relative;
             width: 100%;
             background-image: url("img/crowd.jpg");
-            background-attachment: fixed; 
-            background-size: cover; 
-            -moz-background-size: cover; 
-            -webkit-background-size: cover; 
-            background-repeat: no-repeat; 
+            background-attachment: fixed;
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            background-repeat: no-repeat;
             background-position: center bottom;
-            
+
         }
 
-        .text{
+        .text {
             position: absolute;
             top: 0;
             left: 0;
@@ -102,14 +102,12 @@
             background: rgba(255, 255, 255, 0.6);
             font-size: 50px;
         }
-
-
-
     </style>
 
 </head>
+
 <body>
-    
+
     <div id="navbar"></div>
 
     <!--br><br><br><br-->
@@ -122,13 +120,11 @@
                 <div class="container">
                     <img src="img/SHSS logo.png" alt="Stay Home Stay Safe Logo" class="logo">
                     <span class="title">
-                        <div data-aos="fade-right"
-                            data-aos-offset="3"
-                            data-aos-easing="ease-in-sine">
+                        <div data-aos="fade-right" data-aos-offset="3" data-aos-easing="ease-in-sine">
 
                             <p>Stay Safe Stay Healthy</p>
                         </div>
-                        
+
                     </span>
                 </div>
             </div>
@@ -147,16 +143,18 @@
 
     <section id="social-media">
         <div class="container">
-            <h1><div class="subtitle">Social Media Posting Timeline</div></h1>
+            <h1>
+                <div class="subtitle">Social Media Posting Timeline</div>
+            </h1>
             <div id="timeline"></div>
         </div>
     </section>
-    
+
 
     <br><br><br><br><br>
 
-    <section id="team">            
-            <div id="team"></div>
+    <section id="team">
+        <div id="team"></div>
     </section>
 
     <br><br><br>
@@ -169,4 +167,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>
